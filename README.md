@@ -4,13 +4,13 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Arcfoz/WokwiApiWeb
+  git clone https://github.com/Arcfoz/ThingspeakApiWeb
 ```
 
 Go to the project directory
 
 ```bash
-  cd WokwiApiWeb
+  cd ThingspeakApiWeb
 ```
 
 Install dependencies
