@@ -1,5 +1,6 @@
 // api url
-const api_url = "https://api.thingspeak.com/channels/2053442/feeds.json?api_key=GW1YEFR9KWUNFX0G&results=1";
+const api_url = "https://api.thingspeak.com/channels/<ChannelID>/feeds.json?api_key=<ReadAPIKeys>&results=1";
+// masukan url sesuai dengan format <ChannelID>, <ReadAPIKeys> yang ada di Thingspeak
 
 setInterval(() => {
   fetch(api_url)
