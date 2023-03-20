@@ -1,0 +1,119 @@
+/* Import font dan reset CSS */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #3fd1c7;
+    border: 1px solid #6668ab;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  
+  /* mensetting ukuran lebar maksimum dari konten utama */
+  @media (min-width: 768px) {
+    main {
+      max-width: 800px;
+    }
+  }
+
+/* Styling untuk body */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+/* Styling untuk judul halaman */
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Styling untuk sub-judul pada halaman */
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section span {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    align-items: center;
+    width : 300px;
+    
+    
+    
+    
+  }
+/* Styling untuk elemen dengan ID 'field-1' */
+#field-1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+}
+
+/* Styling untuk elemen dengan ID 'field-2' */
+#field-2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 10px;
+  align-items: center;
+  
+  
+  
+}
+
+/* Styling untuk elemen dengan ID 'field-3' */
+#field-3 {
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+/* Styling untuk container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+/* Styling untuk wrapper field */
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+ 
