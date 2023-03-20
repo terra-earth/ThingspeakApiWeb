@@ -8,10 +8,10 @@
 section {
     margin: 30px auto;
     padding: 20px;
-    background-color: #3fd1c7;
-    border: 1px solid #6668ab;
+    background-color: #000000;
+    border: 1px solid #3a3a41;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(68, 62, 62);
     
   }
   main {
@@ -34,7 +34,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333;
+  color: white;
   background-color: #f2f2f2;
 }
 
@@ -57,7 +57,7 @@ h2 {
   text-transform: uppercase;
 }
 
-section span {
+span {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -70,12 +70,16 @@ section span {
     
     
     
+    
+    
+    
+    
   }
 /* Styling untuk elemen dengan ID 'field-1' */
 #field-1 {
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -83,9 +87,11 @@ section span {
 #field-2 {
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   align-items: center;
+  margin-left: 180px;
+  
   
   
   
@@ -95,7 +101,7 @@ section span {
 #field-3 {
   font-size: 48px;
   font-weight: 600;
-  color: black;
+  color: white;
   margin-bottom: 40px;
   align-items: center;
 }
@@ -114,6 +120,8 @@ section span {
   flex-direction: column;
   align-items: center;
 }
-
+body{
+  align-items: center;
+}
 
  
